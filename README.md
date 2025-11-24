@@ -12,6 +12,22 @@ and the Flutter guide for
 -->
 
 # Foundation Models Framework
+<p align="center">
+  <a href="https://pub.dev/packages/foundation_models_framework">
+    <img src="https://img.shields.io/pub/v/foundation_models_framework?label=pub.dev&color=blue" alt="Pub Version">
+  </a>
+  <a href="https://pub.dev/packages/foundation_models_framework/score">
+    <img src="https://img.shields.io/pub/points/foundation_models_framework?color=green" alt="Pub Points">
+  </a>
+  <a href="https://pub.dev/packages/foundation_models_framework/score">
+    <img src="https://img.shields.io/pub/popularity/foundation_models_framework?color=brightgreen" alt="Popularity">
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/license-MIT-yellow.svg" alt="License">
+  </a>
+  <img src="https://img.shields.io/badge/platform-iOS%2026%2B%20%7C%20macOS%2015%2B-lightgrey" alt="Platforms">
+  <img src="https://img.shields.io/badge/status-BETA-orange" alt="Status">
+</p>
 
 > **⚠️ BETA STATUS**: This package is in beta. Core functionality including streaming is stable, but structured generation and tool calling features are still in development.
 
