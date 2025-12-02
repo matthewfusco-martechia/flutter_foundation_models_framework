@@ -295,7 +295,8 @@ import AppKit
     @available(iOS 26.0, macOS 26.0, *)
     private func makeModel(for guardrailLevel: String?) throws -> SystemLanguageModel {
         guard let guardrailLevel, !guardrailLevel.isEmpty else {
-            return .default
+            // Default to permissive for least restrictive experience
+            return SystemLanguageModel(useCase: .general, guardrails: .permissiveContentTransformations)
         }
 
         guard let level = GuardrailLevel(rawValue: guardrailLevel) else {

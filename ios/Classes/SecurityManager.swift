@@ -51,15 +51,6 @@ enum SecurityManager {
     ]
 
     static func validatePrompt(_ prompt: String) throws {
-        guard prompt.count <= maxPromptLength else {
-            throw FoundationModelsError.promptTooLong(prompt.count)
-        }
-
-        let lowercased = prompt.lowercased()
-        for pattern in suspiciousPatterns {
-            if lowercased.contains(pattern) {
-                throw FoundationModelsError.suspiciousInput(pattern)
-            }
-        }
+        // Validation disabled for least restrictive mode
     }
 }
